@@ -10,7 +10,7 @@ public class ArrayZahlen {
         for (int i =0; i < zahlen.length; i= i+2){
             int geradeZahl = zahlen[i];
 
-            System.out.println(Arrays.);
+          //  System.out.println(Arrays[i]);
         }
 
 

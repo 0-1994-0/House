@@ -19,10 +19,14 @@ public class Goethe {
             String actualWord = buchText.next();
             if (actualWord.toLowerCase().equals(wort)){
                 wordcount = wordcount + 1;
+
             }
+
+            System.out.print(actualWord + " ");
         }
 
         System.out.println("Das Wort " +wort+ "kommt " +wordcount+ " oft vor.");
+        ;
 
     }
 }
